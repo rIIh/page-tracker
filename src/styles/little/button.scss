@@ -1,0 +1,14 @@
+.button {
+  background-color: white;
+  border: 1px black solid;
+  font-size: 0.75rem;
+  color: black;
+  box-sizing: content-box;
+
+  transition: all 150ms;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}

@@ -1,0 +1,20 @@
+$header-height: 3rem;
+
+.header {
+  height: $header-height;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+
+  &__left, &__right {
+    margin: auto 0;
+    max-height: 100%;
+
+    > *:not(:last-child) {
+      margin-right: 0.5rem;
+    }
+  }
+
+  &__profile {
+  }
+}
